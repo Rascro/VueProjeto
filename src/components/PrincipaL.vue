@@ -1,14 +1,17 @@
 <script>
-export default {};
+import CompCaixas from "@/components/CompCaixas.vue";
+export default {
+  components: { CompCaixas },
+};
 </script>
 <template>
   <main id="content">
-    <article class="block">the clash</article>
-    <article class="block">Nirvana</article>
-    <article class="block">Metalica</article>
-    <article class="block">the Beatles</article>
-    <article class="block">Mamonas</article>
-    <article class="block">Queen</article>
+    <CompCaixas titulo="The Clash" />
+    <CompCaixas titulo="Nirvana" />
+    <CompCaixas titulo="Pentakill" />
+    <CompCaixas titulo="The Beatles" />
+    <CompCaixas titulo="Peatch" />
+    <CompCaixas titulo="One Pice" class="one" />
   </main>
 </template>
 <style></style>
