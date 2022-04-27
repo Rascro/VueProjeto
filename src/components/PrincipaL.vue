@@ -2,6 +2,12 @@
 import CompCaixas from "@/components/CompCaixas.vue";
 export default {
   components: { CompCaixas },
+  data() {
+    return {
+      musicas1: [],
+      musicas2: [],
+    };
+  },
 };
 </script>
 <template>
