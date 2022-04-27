@@ -12,10 +12,10 @@ export default {
 </script>
 <template>
   <main id="content">
-    <CompCaixas titulo="The Clash" />
+    <CompCaixas titulo="The Clash" class="one" />
     <CompCaixas titulo="Nirvana" />
-    <CompCaixas titulo="Pentakill" />
-    <CompCaixas titulo="The Beatles" />
+    <CompCaixas titulo="Pentakill" class="one" />
+    <CompCaixas titulo="The Beatles" class="one" />
     <CompCaixas titulo="Peatch" />
     <CompCaixas titulo="One Pice" class="one" />
   </main>
